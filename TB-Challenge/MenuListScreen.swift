@@ -8,6 +8,9 @@
 
 import UIKit
 
+//Global vars and constants
+let appDelegate = UIApplication.shared.delegate as? AppDelegate
+
 class MenuListScreen: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
@@ -60,7 +63,7 @@ extension MenuListScreen: UITableViewDataSource, UITableViewDelegate {
         
         let item = items[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell") as! MenuItemCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! MenuItemCell
         
         cell.setItem(item: item)
         

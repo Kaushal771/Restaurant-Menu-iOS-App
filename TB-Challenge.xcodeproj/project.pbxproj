@@ -15,6 +15,7 @@
 		BB76FB9C221246520014FB5C /* MenuListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB76FB9B221246520014FB5C /* MenuListScreen.swift */; };
 		BB76FB9E2212498C0014FB5C /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB76FB9D2212498C0014FB5C /* MenuItemCell.swift */; };
 		BB76FBA022124A860014FB5C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB76FB9F22124A860014FB5C /* Item.swift */; };
+		BB76FBA222126C9A0014FB5C /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB76FBA122126C9A0014FB5C /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BB76FB9B221246520014FB5C /* MenuListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListScreen.swift; sourceTree = "<group>"; };
 		BB76FB9D2212498C0014FB5C /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		BB76FB9F22124A860014FB5C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BB76FBA122126C9A0014FB5C /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				BB76FB862212447A0014FB5C /* AppDelegate.swift */,
+				BB76FBA122126C9A0014FB5C /* AddItemViewController.swift */,
 				BB76FB9B221246520014FB5C /* MenuListScreen.swift */,
 				BB76FB9D2212498C0014FB5C /* MenuItemCell.swift */,
 				BB76FB9F22124A860014FB5C /* Item.swift */,
@@ -149,6 +152,7 @@
 				BB76FB9E2212498C0014FB5C /* MenuItemCell.swift in Sources */,
 				BB76FB872212447A0014FB5C /* AppDelegate.swift in Sources */,
 				BB76FB9C221246520014FB5C /* MenuListScreen.swift in Sources */,
+				BB76FBA222126C9A0014FB5C /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
