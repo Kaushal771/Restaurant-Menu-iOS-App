@@ -19,3 +19,15 @@ class Item {
         self.title = title
     }
 }
+
+class ItemClicked{
+    var image: UIImage
+    var title: String
+    var price: String
+    
+    init(image: UIImage, title: String, price: String) {
+        self.image = image
+        self.title = title
+        self.price = price
+    }
+}
