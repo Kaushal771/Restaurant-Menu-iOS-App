@@ -1,4 +1,4 @@
-# TouchBistro-iOSTechnicalChallenge
+# TouchBistro-iOSTechnicalChallenge - Kaushal Desai
 
 Thank you to everyone involved for giving me this opportunity. I throughly enjoyed working through this technical challenge.
 
