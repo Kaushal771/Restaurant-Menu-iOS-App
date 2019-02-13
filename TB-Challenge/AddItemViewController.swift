@@ -6,6 +6,9 @@
 //  Copyright © 2019 Kaushal Desai. All rights reserved.
 //
 
+
+
+/**** This Class was for the viewcontroller that would added addtional menu items the main table view of menu items  ********/
 import UIKit
 import CoreData
 
@@ -38,7 +41,7 @@ class AddItemViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    // After saved button is pressed returning to main screen to output new menu item
     @IBAction func saveButtonPressed(_ sender: Any)
     {
         saveItem { (done) in
@@ -55,6 +58,8 @@ class AddItemViewController: UIViewController {
         }
     }
     
+    
+    // Saving the name of the menu item typed into core data persistent container
     func saveItem(completion: (_ finished: Bool) -> ())
     {
         

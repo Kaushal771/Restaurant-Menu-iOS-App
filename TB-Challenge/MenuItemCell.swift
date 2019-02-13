@@ -6,6 +6,8 @@
 //  Copyright © 2019 Kaushal Desai. All rights reserved.
 //
 
+/******* This class was to tie the cells of the main table view to the code ******/
+
 import UIKit
 
 class MenuItemCell: UITableViewCell {

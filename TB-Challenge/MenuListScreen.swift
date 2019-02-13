@@ -6,6 +6,8 @@
 //  Copyright © 2019 Kaushal Desai. All rights reserved.
 //
 
+/*******   This class was for the main viewcontroller with the tableview on the main page *****/
+
 import UIKit
 import CoreData
 
@@ -99,6 +101,8 @@ extension MenuListScreen: UITableViewDataSource, UITableViewDelegate {
    
 }
 
+
+//Here I attempted to load the persisten data from managed context of core data. But since I was unable to load the image with the name, I was unable to add it to the main tableview
 extension MenuListScreen {
     
     func fetchCoreData(completion: (_ complete: Bool) -> ())

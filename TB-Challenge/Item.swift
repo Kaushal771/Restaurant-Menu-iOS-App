@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+
+/*** Data for Main tableview ***/
 class Item {
     
     var image: UIImage
@@ -20,6 +22,7 @@ class Item {
     }
 }
 
+/* Data for individual items tableview*/
 class ItemClicked{
     var image: UIImage
     var title: String

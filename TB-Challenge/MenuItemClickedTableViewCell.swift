@@ -6,6 +6,8 @@
 //  Copyright © 2019 Kaushal Desai. All rights reserved.
 //
 
+/******* This class was to tie the cells of the table view once of the sections of the menu is selected ******/
+
 import UIKit
 
 class MenuItemClickedTableViewCell: UITableViewCell {

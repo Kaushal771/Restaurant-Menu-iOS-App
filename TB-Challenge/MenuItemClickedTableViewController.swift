@@ -6,6 +6,8 @@
 //  Copyright © 2019 Kaushal Desai. All rights reserved.
 //
 
+/***** This class was for the viewcontroller with the table view of items once the one of the categories was clicked ******/
+
 import UIKit
 
 class MenuItemClickedTableViewController: UIViewController {
